@@ -1,0 +1,78 @@
+.craps-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background: green;
+}
+
+.main-board {
+  width: 50%;
+}
+
+.side-bets {
+  width: 50%;
+}
+
+.pass-bets {
+  width: 60%; /* Adjust width as needed */
+  color: white;
+  border: 1px solid #ffffff;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer; /* Optional: changes the mouse cursor on hover */
+}
+
+.come-bet {
+    width: 60%; /* Adjust width as needed */
+    color: white;
+    border: 1px solid #ffffff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer; /* Optional: changes the mouse cursor on hover */
+}
+
+.field-bet {
+  width: 60%; /* Adjust width as needed */
+  color: white;
+  border: 1px solid #ffffff;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer; /* Optional: changes the mouse cursor on hover */
+}
+
+.box-numbers-dont {
+  display: flex;
+  width: 60%;
+  border: 1px solid white;
+}
+
+.numbers {
+  width: 14.28%;
+  height: 100%;
+  color: yellow;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.dont-come {
+  width: 14.28%;
+  height: 100%;
+  color: yellow;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.circle-button {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 20px; /* Padding to make it circular */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%; /* This makes the button circular */
+}
